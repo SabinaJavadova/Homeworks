@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+.pink{
+    color: hotpink;
+    background-color: ;
+}
+
+img{
+    border-radius: 50%;
+    background-color: darksalmon;
+}
+
+h3{
+    color: brown;
+}
+
+.giris p{
+    color: rgb(23, 44, 64);
+}
+
+.sekil1 img{
+    border-color: blanchedalmond;
+}
+
+.hist {
+    color: brown;
+}
+
+.orta p{
+    background-color: bisque;
+   padding: 20px;
+}
+
+.paris h2{
+    color: grey;
+}
+.paris p{
+    background-color: beige;
+    color: grey;
+}
+.milan h2{
+    background-color: antiquewhite;
+    color: palevioletred;
+}
+.milan p{
+    background-color: antiquewhite;
+}
+
+.blog3 h2{
+    background-color: plum;
+
+}
+.blog3 p{
+    background-color: aliceblue;
+    color: rgb(64, 4, 24);
+}
+
+.blog4 h2{
+background-color: azure;
+color: palevioletred;
+}
+
+.blog4 p{
+    background-color: azure;
+    color: blueviolet;
+}
+
+.blog5 h2{
+    background-color: beige;
+    color: blueviolet;
+}
+.blog5 p{
+    background-color: beige;
+    color: blue;
+}
+
+.end h2{
+background-color: antiquewhite;
+color: hotpink;
+}
