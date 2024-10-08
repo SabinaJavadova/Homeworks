@@ -1,0 +1,34 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sari{
+    background-color: yellow;
+}
+.codingg{
+    color: red;
+    border: 2px solid purple;
+}
+h2,h3,h4,h5,h6{
+    font-size: 15px;
+}
+h2{
+    background-color: blue;
+}
+h3{
+    background-color: green;
+}
+h4{
+    color: red;
+}
+h5{
+    background-color: green;
+}
+
+.sariback{
+    background-color: yellow;
+}
+
+

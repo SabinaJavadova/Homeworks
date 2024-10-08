@@ -1,0 +1,22 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kvadrat{
+border: 2px solid gray;
+
+}
+
+.qirmizi{
+    background-color: red;
+}
+
+h2{
+    background-color: yellow;
+}
+
+.yasil{
+    background-color: green;
+}
