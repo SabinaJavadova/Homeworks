@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container h3{
+    color: rgb(115, 115, 115);
+    padding: 10px;
+}
+.container h1{
+    padding: 6px;
+    font-size: 25px;
+
+                   
+}
+p {
+    padding: 5px;
+    
+}
+
+img{
+    width: 30%;
+    margin-left: 20px;
+    padding: 2  0px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.container{
+    position: relative;
+   text-align: center;
+   
+}
+
+.trend{
+    position: absolute;
+    top: 50%;
+    left: 500px;
+    background-color: white;
+}
