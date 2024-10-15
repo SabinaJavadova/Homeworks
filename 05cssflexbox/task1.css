@@ -1,0 +1,80 @@
+* {
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .headline {
+    display: flex;
+    gap: 25px;
+  }
+  .headline a {
+    color: black;
+  }
+  ul {
+    display: flex;
+    gap: 100px;
+  }
+  
+  .count {
+    color: rgb(156, 156, 156);
+  }
+  
+  .basket {
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-right: 200px;
+  }
+  
+  main {
+    display: flex;
+    padding-right: 200px;
+
+  }
+  img {
+    width: 100%;
+  }
+  .product {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    
+    
+  }
+  .box1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    left: 50px;
+    width: 30%;
+   
+  }
+  
+  .name {
+    gap: 70px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .abaut {
+    color: rgb(156, 156, 156);
+  }
