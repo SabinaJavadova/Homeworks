@@ -1,0 +1,159 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 150px;
+    background-color: #212529;
+    
+
+}
+
+nav .items ul {
+    display: flex;
+    gap: 30px;
+}
+nav .Bootstr h1{
+    color: #fed136;
+    cursor: pointer;
+}
+
+nav .items ul a {
+    color: white;
+    transition: 0.1s;
+    font-size: 20px;
+}
+
+
+nav .items ul a:hover{
+    color:  #fed136;
+}
+.sec1 img {
+    width: 100%;
+    
+}
+
+#sec1 {
+    background-image: url("https://st5.depositphotos.com/7595566/61995/i/450/depositphotos_619954074-stock-photo-aesthetic-home-office-desk-workspace.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding: 0 10%;
+   padding-bottom: 17%;
+    
+}
+.enterin {
+    /* justify-content: center;
+    align-items: center;
+    */
+  padding: 80px;
+    
+}
+.buton {
+    align-items: center;
+    text-align: center;
+}
+button {
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #fed136;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    align-items: center;
+}
+button:hover{
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #bc9b26;
+    cursor: pointer;
+
+}
+
+.enterin h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.enterin h3 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.enterin h1,h3 {
+    font-size: 100px;
+    color: white;
+}
+
+.nameservice {
+    text-align: center;
+    padding: 50px;
+}
+
+.nameservice h2 {
+    font-size:80px;
+    color: #fed136;
+}
+
+.nameservice p {
+    font-size: 25px;
+    color: #6c757d;
+}
+
+.ikon i{
+    background-color: #fed136;
+    border-radius: 50%;
+    padding: 50px;
+    font-size: 60px;
+    color: white;
+}
+
+.row h2 {
+    color: #fed136;
+font-size: 50px;
+}
+ .row p {
+    color: #6c757d;
+    padding: 10px;
+ }
+
+ .row {
+    padding: 50px;
+ }
+
+ .butonmenu {
+    display: none;
+  }
+
+ @media only screen and (max-width: 1023px){
+    nav .items ul{
+      display: none;
+    }
+   .butonmenu {
+    display: block;
+   }
+    .butons {
+      display: block;
+  
+    }
+    nav {
+      padding: 30px 0;
+    }
+   }
+
+   img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+.row2 i {
+    color: #ced4da;
+    border-radius: 50%;
+    padding: 50px;
+    font-size: 60px;
+    background-color: aliceblue;
+}
