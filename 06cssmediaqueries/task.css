@@ -5,8 +5,9 @@ nav {
     justify-content: space-between;
     padding: 25px 150px;
     background-color: #212529;
-    
-
+    position: fixed;
+    width: 100%;
+    z-index: 199999;
 }
 
 nav .items ul {
@@ -34,7 +35,7 @@ nav .items ul a:hover{
 }
 
 #sec1 {
-    background-image: url("https://st5.depositphotos.com/7595566/61995/i/450/depositphotos_619954074-stock-photo-aesthetic-home-office-desk-workspace.jpg" );
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg" );
     background-repeat: no-repeat;
     background-size: cover;
    padding: 0 10%;
@@ -56,6 +57,7 @@ button {
     padding: 15px 20px;
     border-radius: 8px;
     border: none;
+    color: #767a7d;
     background-color: #fed136;
     cursor: pointer;
     transition: 0.3s;
@@ -114,7 +116,8 @@ button:hover{
 
 .row h2 {
     color: #fed136;
-font-size: 50px;
+    font-size: 40px;
+    text-align: center;
 }
  .row p {
     color: #6c757d;
@@ -129,31 +132,224 @@ font-size: 50px;
     display: none;
   }
 
- @media only screen and (max-width: 1023px){
-    nav .items ul{
-      display: none;
-    }
-   .butonmenu {
-    display: block;
-   }
-    .butons {
-      display: block;
   
-    }
-    nav {
-      padding: 30px 0;
-    }
-   }
-
-   img {
+  img {
     width: 100%;
     border-radius: 10px;
   }
   
-.row2 i {
+  .row2 i {
     color: #ced4da;
     border-radius: 50%;
     padding: 50px;
     font-size: 60px;
     background-color: aliceblue;
 }
+
+/* .therad {
+    z-index: 1000;
+} */
+
+.therad {
+    color: #bc9b26;
+    font-size: 30px;
+    text-align: center;
+}
+.collet {
+    text-align: center;
+}
+.italic {
+    color: #6c757d;
+}
+
+#people .letters h2,p {
+    text-align: center;
+    padding: 7px;
+}
+
+#people .letters h2 {
+    font-size: 55px;
+    color: #fed136;
+}
+
+#people .letters p {
+    color: #767a7d;
+    font-size: 18px;
+}
+#people .container .row {
+    display: flex;
+    padding: 9px;
+}
+#people .container .row .col-4 h3 {
+    color: #767a7d;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 30px;
+}
+#people .container{
+    padding: 30px;
+}
+
+#people .container .row .col-4 img {
+    border-radius: 50%;
+    border: 10px solid #dfe0e1;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#people .container .row .col-4 .ikons i {
+    background-color: #212529;
+    border-radius: 50%;
+    padding: 15px;
+    color: #ced4da;
+}
+
+#people .container .row .col-4 .ikons {
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#people .container .row .col-4 {
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .lastletter {
+    text-align: center;
+    color: #767a7d;
+    font-size: 20px;
+    width: 50%;
+    padding: 90px 40px;
+    } */
+    
+    .lastletter .let {
+        
+        margin: 0 auto;
+        width: 50%;
+        color: #767a7d;
+        font-size: 20px;
+        
+    }
+
+    footer #webs{
+        padding: 3% 5%;
+}
+
+
+.yellowc p{
+    color: #fed136;
+    
+}
+
+.logos{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.logos i{
+    color: white;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.ikons {
+    cursor: pointer;
+}
+/* #end{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    align-items: center;
+    } */
+    
+    #end ul{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+#end {
+    background-color: aliceblue;
+}
+
+#end ul a {
+    color: #444444;
+}
+
+#sec2 .row .col-4 {
+    cursor: pointer;
+}
+
+.hoverimg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 99%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    background-color: rgba(223, 186, 53, 0.936);
+    transition: 0.3s;
+}
+
+
+.sekill:hover .hoverimg {
+    display: flex;
+}
+
+.hoverimg h5 {
+    font-size: 100px;
+    font-weight: 500;
+    color: white;
+    
+}
+
+.sekill{
+    position: relative;
+    cursor: pointer;
+
+}
+
+.sekill img{
+    position: relative;
+    
+}
+@media only screen and (max-width: 1023px){
+   nav .items ul{
+     display: none;
+   }
+  .butonmenu {
+   display: block;
+  }
+   .butons {
+     display: block;
+ 
+   }
+   nav {
+     padding: 30px 0;
+   }
+
+   .sekill {
+   font-size: 100px;
+   font-weight: 400;
+   color: white;
+
+   }
+  }
