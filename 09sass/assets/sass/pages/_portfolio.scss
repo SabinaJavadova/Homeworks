@@ -1,0 +1,35 @@
+#portfolio{
+  background-color: $bg-color-secondary;
+  padding: 100px 0;
+  
+  h1{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    color: $color-white;
+   padding: 10px;
+  }
+}
+
+
+#grid{
+  background-color: $bg-color;
+  nav{
+    justify-content:center;
+    display: flex;
+    padding: 60px 0;
+    ul{
+      display: flex;
+      gap: 30px;
+      li{
+        a{
+          color: $primary-color;
+          text-align: center;
+          
+        }
+      }
+
+    }
+  }
+}

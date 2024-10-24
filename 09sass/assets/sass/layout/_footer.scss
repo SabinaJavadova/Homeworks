@@ -1,0 +1,51 @@
+footer{
+  background-color: $bg-color;
+  
+    .footer{
+      padding: 50px 0;
+      h4{
+        font-weight: 700px
+      }
+      .menu-service{
+        @include flexBox(space-around,center);
+        .menu{
+          h5{
+            padding-bottom: 10px;
+          }
+          ul{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            li{
+              a{
+                color: $primary-color;
+              }
+            }
+          }
+        }
+        .service {
+          h5{
+            padding-bottom: 10px;
+          }
+          ul{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            li{
+              a{
+               
+                color: $primary-color;
+              }
+            }
+          }
+        }
+        .icons i{
+          background-color: $secondary-color ;
+          padding: 8px;
+          border-radius: 50%;
+          color: $color-white;
+        }
+      }
+    }
+  
+}

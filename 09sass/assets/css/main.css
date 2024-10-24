@@ -192,7 +192,7 @@ h5 {
   color: #EF6D58;
 }
 
-#home-page #hero-banner .hero-banner .hero-banner-content .btns .contact-us, header .header .contact {
+#home-page #orange-banner .container .orange-banner .orange-banner-content .contact-us, #home-page #hero-banner .hero-banner .hero-banner-content .btns .contact-us, header .header .contact {
   color: #fff;
   background-color: transparent;
   text-transform: uppercase;
@@ -203,7 +203,7 @@ h5 {
   cursor: pointer;
   transition: 0.3s;
 }
-#home-page #hero-banner .hero-banner .hero-banner-content .btns .contact-us:hover, header .header .contact:hover {
+#home-page #orange-banner .container .orange-banner .orange-banner-content .contact-us:hover, #home-page #hero-banner .hero-banner .hero-banner-content .btns .contact-us:hover, header .header .contact:hover {
   background-color: rgb(103, 104, 119);
 }
 
@@ -471,6 +471,49 @@ header .header .menu img {
   cursor: pointer;
 }
 
+footer {
+  background-color: rgb(253, 240, 233);
+}
+footer .footer {
+  padding: 50px 0;
+}
+footer .footer h4 {
+  font-weight: 700px;
+}
+footer .footer .menu-service {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .footer .menu-service .menu h5 {
+  padding-bottom: 10px;
+}
+footer .footer .menu-service .menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .footer .menu-service .menu ul li a {
+  color: #391400;
+}
+footer .footer .menu-service .service h5 {
+  padding-bottom: 10px;
+}
+footer .footer .menu-service .service ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .footer .menu-service .service ul li a {
+  color: #391400;
+}
+footer .footer .menu-service .icons i {
+  background-color: #ef6d58;
+  padding: 8px;
+  border-radius: 50%;
+  color: #fff;
+}
+
 #home-page #hero-banner {
   background-color: rgb(40, 41, 62);
   padding: 3rem 0;
@@ -485,6 +528,7 @@ header .header .menu img {
     row-gap: 1.5rem;
   }
   #home-page #hero-banner .hero-banner .hero-banner-img {
+    width: 50%;
     order: -1;
   }
 }
@@ -518,8 +562,7 @@ header .header .menu img {
 }
 #home-page #hero-banner .hero-banner .hero-banner-content .feedback {
   display: flex;
-  -moz-column-gap: 1rem;
-       column-gap: 1rem;
+  column-gap: 1rem;
 }
 #home-page #hero-banner .hero-banner .hero-banner-content .feedback span {
   color: #fff;
@@ -527,14 +570,51 @@ header .header .menu img {
 #home-page #hero-banner .hero-banner .hero-banner-img img {
   width: 100%;
 }
+#home-page #orange-banner {
+  background-color: #ef6d58;
+}
+#home-page #orange-banner .container .orange-banner {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 767px) {
+  #home-page #orange-banner .container .orange-banner {
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+  #home-page #orange-banner .container .orange-banner .orange-banner-img {
+    width: 50%;
+    order: -1;
+  }
+}
+#home-page #orange-banner .container .orange-banner .orange-banner-img {
+  width: 50%;
+}
+#home-page #orange-banner .container .orange-banner .orange-banner-img img {
+  width: 100%;
+}
+#home-page #orange-banner .container .orange-banner .orange-banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  padding: 150px 50px;
+}
+#home-page #orange-banner .container .orange-banner .orange-banner-content h2 {
+  color: #fff;
+  text-align: center;
+}
+#home-page #orange-banner .container .orange-banner .orange-banner-content p {
+  color: rgba(255, 255, 255, 0.64);
+  text-align: center;
+}
 #home-page #partners {
   display: flex;
   background-color: rgb(253, 240, 233);
   padding: 3rem 0;
 }
 #home-page #partners .partners {
-  -moz-column-gap: 90px;
-       column-gap: 90px;
+  column-gap: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -545,4 +625,34 @@ header .header .menu img {
   #home-page #partners .partners {
     justify-content: center;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+#portfolio {
+  background-color: rgb(40, 41, 62);
+  padding: 100px 0;
+}
+#portfolio h1 {
+  text-align: center;
+}
+#portfolio p {
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+#grid {
+  background-color: rgb(253, 240, 233);
+}
+#grid nav {
+  justify-content: center;
+  display: flex;
+  padding: 60px 0;
+}
+#grid nav ul {
+  display: flex;
+  gap: 30px;
+}
+#grid nav ul li a {
+  color: #391400;
+  text-align: center;
+}
