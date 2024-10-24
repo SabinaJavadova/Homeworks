@@ -1,0 +1,33 @@
+h1{
+
+    font-size: 72px;
+    font-weight: 800;
+    color: $color-white;
+    line-height: 80px;
+    letter-spacing: -2px;
+    @include for-phone-only{
+        font-size: 56px;
+    }
+}
+
+h2{
+
+    font-size: 56px;
+    font-weight: 800;
+    color: $primary-color;
+    @include for-phone-only{
+        font-size: 40px;
+    }
+}
+h3{
+    font-size: 40px;
+    color: $primary-color;
+}
+h4{
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 16px;
+    color: #EF6D58;
+}
