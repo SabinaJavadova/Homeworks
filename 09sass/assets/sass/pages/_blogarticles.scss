@@ -1,0 +1,162 @@
+#blogarticles{
+  background-color: $bg-color-secondary;
+  padding: 100px 0;
+  
+  h1{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    color: $color-white;
+   padding: 10px;
+  }
+}
+
+
+#sec2{
+  background-color: $bg-color;
+.container{
+.row{
+  .col-6{
+    .card{
+      h3{
+        font-size: 30px;
+        width: 450px;
+      }
+      .date{
+        opacity: 65%;
+      }
+      p{
+        padding: 15px 0;
+      }
+      img{
+        width: 100%;
+        
+      }
+    }
+  }
+}
+}
+
+}
+
+#sec3{
+  background-color: $bg-color;
+  .container{
+    .row{
+      .col-4{
+        .card{
+          h3{
+            font-size: 20px;
+            width: 350px;
+            font-weight: 700;
+          }
+          .date{
+            opacity: 65%;
+          }
+          p{
+            padding: 15px 0;
+          }
+          img{
+            width: 100%;
+            
+          }
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+#sec4{
+  background-color: $bg-color;
+  padding: 40px 0;
+  .container{
+    
+    display: flex;
+    justify-content: space-between;
+    h3{
+      font-weight: 700;
+    }
+    input{
+      background-color: $color-white;
+      color: #391400;
+      width: 370px;
+      height: 48px;
+      border: none;
+      padding: 0 10px;
+    }
+    button{
+      padding: 8px 20px;
+      background-color: $color-white;
+      color: #391400;
+      font-weight: 700;
+      border-radius: 6px;
+      border: none;
+    }
+  }
+}
+
+
+#orange-banner{
+  background-color: $secondary-color;
+  .container{
+      .orange-banner{
+
+          display: flex;
+          flex-direction: row;
+          @include for-phone-only{
+              flex-direction: column;
+              row-gap: 1.5rem;
+              .orange-banner-img{
+                  width: 50%;
+                  order: -1;
+              }
+          }
+          .orange-banner-img{
+              width: 50%;
+              img{
+                  width: 100%;
+              }
+          }
+
+          .orange-banner-content{
+              .contact-us{
+
+                  @extend %primary-btn;
+              }
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              row-gap: 50px;
+              padding: 150px 50px;
+              h2{
+                  color: $color-white;
+                 text-align: center;
+              }
+              p{
+                  color: rgba($color: #fff, $alpha: 0.64);
+                  text-align: center;
+              }
+          }
+      }
+  }
+}
+
+#partners {
+  display: flex;
+  background-color: $bg-color;
+  padding: 3rem 0;
+  .partners{
+      column-gap: 90px;
+      @include flexBox();
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      @include for-phone-only{
+          justify-content: center;
+      }
+  }
+}
+

@@ -192,7 +192,7 @@ h5 {
   color: #EF6D58;
 }
 
-#home-page #orange-banner .container .orange-banner .orange-banner-content .contact-us, #home-page #hero-banner .hero-banner .hero-banner-content .btns .contact-us, header .header .contact {
+#orange-banner .container .orange-banner .orange-banner-content .contact-us, #home-page #orange-banner .container .orange-banner .orange-banner-content .contact-us, #home-page #hero-banner .hero-banner .hero-banner-content .btns .contact-us, header .header .contact {
   color: #fff;
   background-color: transparent;
   text-transform: uppercase;
@@ -203,7 +203,7 @@ h5 {
   cursor: pointer;
   transition: 0.3s;
 }
-#home-page #orange-banner .container .orange-banner .orange-banner-content .contact-us:hover, #home-page #hero-banner .hero-banner .hero-banner-content .btns .contact-us:hover, header .header .contact:hover {
+#orange-banner .container .orange-banner .orange-banner-content .contact-us:hover, #home-page #orange-banner .container .orange-banner .orange-banner-content .contact-us:hover, #home-page #hero-banner .hero-banner .hero-banner-content .btns .contact-us:hover, header .header .contact:hover {
   background-color: rgb(103, 104, 119);
 }
 
@@ -655,4 +655,144 @@ footer .footer .menu-service .icons i {
 #grid nav ul li a {
   color: #391400;
   text-align: center;
+}
+
+#photos {
+  background-color: rgb(253, 240, 233);
+}
+#blogarticles {
+  background-color: rgb(40, 41, 62);
+  padding: 100px 0;
+}
+#blogarticles h1 {
+  text-align: center;
+}
+#blogarticles p {
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+#sec2 {
+  background-color: rgb(253, 240, 233);
+}
+#sec2 .container .row .col-6 .card h3 {
+  font-size: 30px;
+  width: 450px;
+}
+#sec2 .container .row .col-6 .card .date {
+  opacity: 65%;
+}
+#sec2 .container .row .col-6 .card p {
+  padding: 15px 0;
+}
+#sec2 .container .row .col-6 .card img {
+  width: 100%;
+}
+
+#sec3 {
+  background-color: rgb(253, 240, 233);
+}
+#sec3 .container .row .col-4 .card h3 {
+  font-size: 20px;
+  width: 350px;
+  font-weight: 700;
+}
+#sec3 .container .row .col-4 .card .date {
+  opacity: 65%;
+}
+#sec3 .container .row .col-4 .card p {
+  padding: 15px 0;
+}
+#sec3 .container .row .col-4 .card img {
+  width: 100%;
+}
+#sec3 .container .row .col-4 .card img {
+  width: 100%;
+}
+
+#sec4 {
+  background-color: rgb(253, 240, 233);
+  padding: 40px 0;
+}
+#sec4 .container {
+  display: flex;
+  justify-content: space-between;
+}
+#sec4 .container h3 {
+  font-weight: 700;
+}
+#sec4 .container input {
+  background-color: #fff;
+  color: #391400;
+  width: 370px;
+  height: 48px;
+  border: none;
+  padding: 0 10px;
+}
+#sec4 .container button {
+  padding: 8px 20px;
+  background-color: #fff;
+  color: #391400;
+  font-weight: 700;
+  border-radius: 6px;
+  border: none;
+}
+
+#orange-banner {
+  background-color: #ef6d58;
+}
+#orange-banner .container .orange-banner {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 767px) {
+  #orange-banner .container .orange-banner {
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+  #orange-banner .container .orange-banner .orange-banner-img {
+    width: 50%;
+    order: -1;
+  }
+}
+#orange-banner .container .orange-banner .orange-banner-img {
+  width: 50%;
+}
+#orange-banner .container .orange-banner .orange-banner-img img {
+  width: 100%;
+}
+#orange-banner .container .orange-banner .orange-banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  padding: 150px 50px;
+}
+#orange-banner .container .orange-banner .orange-banner-content h2 {
+  color: #fff;
+  text-align: center;
+}
+#orange-banner .container .orange-banner .orange-banner-content p {
+  color: rgba(255, 255, 255, 0.64);
+  text-align: center;
+}
+
+#partners {
+  display: flex;
+  background-color: rgb(253, 240, 233);
+  padding: 3rem 0;
+}
+#partners .partners {
+  column-gap: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+@media (max-width: 767px) {
+  #partners .partners {
+    justify-content: center;
+  }
 }
