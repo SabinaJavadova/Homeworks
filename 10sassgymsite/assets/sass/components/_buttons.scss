@@ -1,0 +1,16 @@
+%pink-btn {
+    color: $color-grey;
+    background-color: $color-white ;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 1rem 3rem;
+    border-radius: 40px;
+   border-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background-color:$color-pink;
+      border-color: $color-white;
+    }
+  }
+  

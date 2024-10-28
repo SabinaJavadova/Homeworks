@@ -562,7 +562,8 @@ footer .footer .menu-service .icons i {
 }
 #home-page #hero-banner .hero-banner .hero-banner-content .feedback {
   display: flex;
-  column-gap: 1rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
 }
 #home-page #hero-banner .hero-banner .hero-banner-content .feedback span {
   color: #fff;
@@ -614,7 +615,8 @@ footer .footer .menu-service .icons i {
   padding: 3rem 0;
 }
 #home-page #partners .partners {
-  column-gap: 90px;
+  -moz-column-gap: 90px;
+       column-gap: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -784,7 +786,8 @@ footer .footer .menu-service .icons i {
   padding: 3rem 0;
 }
 #partners .partners {
-  column-gap: 90px;
+  -moz-column-gap: 90px;
+       column-gap: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -795,4 +798,4 @@ footer .footer .menu-service .icons i {
   #partners .partners {
     justify-content: center;
   }
-}
+}/*# sourceMappingURL=main.css.map */
