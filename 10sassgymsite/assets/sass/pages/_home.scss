@@ -1,16 +1,17 @@
 #secimg{
    position: relative;
    background-color: black;
-//    @include for-phone-only{
-
-// h1{
-   
-//     bottom: 40px;
-//     font-size: 20px;
-// }
-// p{
-//     position: absolute;
-// }
+   @include for-phone-only{
+   img{
+    position: relative;
+}
+h1{
+    position: absolute;
+    bottom: 40px;
+}
+p{
+    position: absolute;
+}
   }
        img{
         max-width: 100%;
@@ -38,7 +39,7 @@
         text-transform: uppercase;
         color: $color-white;
     }
-
+}
 
 #sec1{
     padding: 60px 0;

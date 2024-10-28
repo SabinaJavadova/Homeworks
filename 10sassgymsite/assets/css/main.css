@@ -478,14 +478,24 @@ header .menu i {
   position: relative;
   background-color: black;
 }
-
-img {
+@media (max-width: 767px) {
+  #secimg img {
+    position: relative;
+  }
+  #secimg h1 {
+    position: absolute;
+    bottom: 40px;
+  }
+  #secimg p {
+    position: absolute;
+  }
+}
+#secimg img {
   max-width: 100%;
   position: relative;
   opacity: 50%;
 }
-
-h1 {
+#secimg h1 {
   position: absolute;
   left: 29%;
   top: 200px;
@@ -496,8 +506,7 @@ h1 {
   max-width: 650px;
   text-align: center;
 }
-
-p {
+#secimg p {
   position: absolute;
   left: 43%;
   top: 330px;
