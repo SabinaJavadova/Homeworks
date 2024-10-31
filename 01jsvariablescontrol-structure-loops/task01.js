@@ -152,3 +152,45 @@
         
 //     }
 // }
+
+// 14. Daxil olunan ədədin array-də olub olmadığını təyin edən proqram tərtib edin.
+// let array = [12,23,43,54,65,67,89,90,90,100];
+// let eded= +prompt("ededi yaz: ")
+// for (let i = 0; i < array.length; i++) {
+//      if(eded== array[i]){
+//         alert(array[i] + "ededi arrayde var");
+        
+//      }else{
+//         alert("eded yoxdur")
+//         break;
+//      }
+        
+// }
+
+// 15.
+ const students = [
+        { name: "Ali", scores: [90, 85, 92] },
+        { name: "Mammal", scores: [75, 80, 85] },
+        { name: "Camil", scores: [90, 95, 85] },
+        { name: "Davud", scores: [100, 100, 100] }
+   ]; 
+// tələbələr array-ində tələbələrin ortalaması ən yüksək olanı, ortalaması 90-dan yuxarı olanları tapan proqram yazın.
+
+for (let i = 0; i < students.length; i++) {
+        let cem= 0;
+        let ortalama;
+        let skor = [];
+        for (let j = 0; j < (students[i].scores).length; j++) {
+                cem += students[i].scores[j]
+                
+        }
+        ortalama =cem/(students[i].scores).length;
+        // console.log(cem);
+        console.log(`${students[i].name}`+ortalama);
+        if(ortalama>90){
+                console.log( `${students[i].name}` + "ortalamasi 90dan coxdur." );
+                
+        }
+
+        
+}
