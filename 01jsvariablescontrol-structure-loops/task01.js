@@ -168,29 +168,47 @@
 // }
 
 // 15.
- const students = [
-        { name: "Ali", scores: [90, 85, 92] },
-        { name: "Mammal", scores: [75, 80, 85] },
-        { name: "Camil", scores: [90, 95, 85] },
-        { name: "Davud", scores: [100, 100, 100] }
-   ]; 
+//  const students = [
+//         { name: "Ali", scores: [90, 85, 92] },
+//         { name: "Mammal", scores: [75, 80, 85] },
+//         { name: "Camil", scores: [90, 95, 85] },
+//         { name: "Davud", scores: [100, 100, 100] }
+//    ]; 
 // tələbələr array-ində tələbələrin ortalaması ən yüksək olanı, ortalaması 90-dan yuxarı olanları tapan proqram yazın.
 
-for (let i = 0; i < students.length; i++) {
-        let cem= 0;
-        let ortalama;
-        let skor = [];
-        for (let j = 0; j < (students[i].scores).length; j++) {
-                cem += students[i].scores[j]
+// for (let i = 0; i < students.length; i++) {
+//         let cem= 0;
+//         let ortalama;
+//         let skor = [];
+//         for (let j = 0; j < (students[i].scores).length; j++) {
+//                 cem += students[i].scores[j]
                 
-        }
-        ortalama =cem/(students[i].scores).length;
-        // console.log(cem);
-        console.log(`${students[i].name}`+ortalama);
-        if(ortalama>90){
-                console.log( `${students[i].name}` + "ortalamasi 90dan coxdur." );
+//         }
+//         ortalama =cem/(students[i].scores).length;
+//         // console.log(cem);
+//         console.log(`${students[i].name}`+ortalama);
+//         if(ortalama>90){
+//                 console.log( `${students[i].name}` + "ortalamasi 90dan coxdur." );
                 
-        }
+//         }
 
         
-}
+// }
+// 11) Write a JavaScript function to check if a given string is a palindrome (reads the same forwards and backwards).
+
+// racecar - polidromdur
+// hello - polidrom deyil
+
+// let soz = prompt("sozu yaz: ");
+// let reverse = "";
+// for (let i = soz.length-1; i >= 0; i--) {
+//     reverse+= soz[i];
+
+// }
+
+// if(soz == reverse){
+//     alert(`polidromdur. ${soz} = ${reverse}`);
+// }
+// else{
+//     alert(`polidrom deyil. ${soz} = ${reverse}`);
+// }
