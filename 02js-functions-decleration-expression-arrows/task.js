@@ -28,6 +28,7 @@
 // function replace(arr,index,index2) {
 //     const element = arr[index];
 //     const newArray = [];
+
 //     for (let i = 0; i < arr.length; i++) {
 
 //         if(i===index2){
@@ -39,7 +40,9 @@
 //     }
 //     return newArray;
 // }
-// console.log(replace([1,2,3,4,5],0,3));
+// console.log(replace([1,2,3,4,5],3,0));
+// console.log(replace(["a","b","c","d"],3,1));
+
 
 // 3.Daxil edilən arraydə təkrarlanan elementi silən və yeni array qaytaran funksiya yazın.
 // Məsələn:
@@ -97,7 +100,7 @@
 //     }
 //     return capitalSentence;
 // }
-// console.log(sentenceCapitalization("a short sentence"));
+// console.log(sentenceCapitalization("a short sentence"));      
 
 //5. Daxil edilən iki arrayi birləşdirən funksiya yazın.
 // console.log(concatArray([1,2,3,4,5],[6,7,8,9]))
