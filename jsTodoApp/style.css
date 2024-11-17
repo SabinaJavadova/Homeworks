@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.container {
+  margin: auto;
+  width: 60%;
+  padding: 40px;
+}
+.container .allBtn {
+  display: flex;
+  gap: 5px;
+}
+.allBtn {
+  margin-left: 200px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.goy {
+  background-color: #0b5ed7;
+  color: white;
+}
+.qirmizi {
+  background-color: #bb2d3b;
+  color: white;
+}
+.yasil {
+  background-color: #157347;
+  color: white;
+}
+.sari {
+  background-color: #ffc107;
+}
+
+.todo {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid rgb(206, 201, 201);
+  border-radius: 8px;
+  margin-left: 45px;
+}
