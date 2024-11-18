@@ -4,24 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
   </head>
   <body>
+    <div class="modal-bg">
+        <div class="modal">
+            <h2>Are you sure you want to clear all the data?</h2>
+            <div class="choice">
+                <button class="cleard">Clear</button>
+                <button class="cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="edit-bg">
+        <div class="modal">
+            <h2>Edit</h2>
+            <input type="text" class="editing">
+            <div class="choice">
+                <button class="save">Save</button>
+                <button class="cancel-edit">Cancel</button>
+            </div>
+        </div>
+
+    </div>
     <div class="container">
       <h1>Todo App</h1>
       
       <div class="add">
         <input type="text" class="todo" />
-        <button class="add goy">ADD</button>
+        <button class="add all">ADD</button>
       </div>
       <div class="allBtn">
-        <button class="goy">All To Dos</button>
-        <button class="yasil">All Completed To Dos</button>
-        <button class="sari">All Pending To Dos</button>
-        <button class="qirmizi">Clear All</button>
+        <button class="all">All To Dos</button>
+        <button class="completed">All Completed To Dos</button>
+        <button class="pending">All Pending To Dos</button>
+        <button class="clear">Clear All</button>
       </div>
       <hr />
       <div class="added"></div>
+    </div>
+
+    <div class="count">
+      
     </div>
     <script src="script.js"></script>
   </body>

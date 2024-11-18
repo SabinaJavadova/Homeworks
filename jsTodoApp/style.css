@@ -34,19 +34,19 @@ button {
   cursor: pointer;
   margin-bottom: 20px;
 }
-.goy {
+.all {
   background-color: #0b5ed7;
   color: white;
 }
-.qirmizi {
+.clear {
   background-color: #bb2d3b;
   color: white;
 }
-.yasil {
+.completed {
   background-color: #157347;
   color: white;
 }
-.sari {
+.pending {
   background-color: #ffc107;
 }
 
@@ -56,4 +56,161 @@ button {
   border: 1px solid rgb(206, 201, 201);
   border-radius: 8px;
   margin-left: 45px;
+}
+.adding .add:hover{
+  background-color: rgb(183, 212, 183);
+}
+
+.added{
+  margin: auto;
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.added .block{
+  padding: 7px 20px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: rgb(230, 200, 229);
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  margin: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.block input{
+ width: 3%;
+ height: 17px;
+ cursor: pointer;
+}
+.block h2{
+  font-size: 21px;
+  font-weight: 400;
+  color: black;
+}
+.block{
+  position: relative;
+}
+.icons{
+
+  position: absolute;
+  display: flex;
+  gap: 15px;
+  right: 30px;
+
+  
+}
+
+.block i{
+  color: rgb(130, 130, 130);
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+
+}
+.block i:hover{
+  color: rgb(69, 69, 69);
+  
+
+}
+
+
+.modal-bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 1000;
+}
+
+.modal{
+  background-color: rgb(232, 232, 232);
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 20px;
+  border-radius: 10px;
+  z-index: 10000;
+  
+}
+.modal .choice{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.modal button{
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+  color: white;
+}
+
+.modal .cleard{
+  background-color: rgb(172, 42, 42);
+}
+.modal .cleard:hover{
+  background-color: rgb(134, 31, 31);
+}
+
+.modal .cancel{
+  background-color: rgb(172, 114, 42);
+}
+
+.modal .cancel:hover{
+  background-color: rgb(140, 97, 44);
+}
+
+.edit-bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 1000;
+}
+
+.edit-bg input{
+  font-size: 18px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 2px 15px;
+  width: 60%;
+}
+
+.edit-bg h2{
+  font-size: 25px;
+  font-weight: 500;
+
+}
+
+.edit-bg .save{
+  background-color: rgb(120, 143, 120);
+}
+
+.edit-bg .save:hover{
+  background-color: rgb(95, 113, 95);
+}
+
+.edit-bg .cancel-edit{
+  background-color: rgb(172, 114, 42);
+
+}
+
+.edit-bg .cancel-edit:hover{
+  background-color: rgb(140, 97, 44);
 }
