@@ -5,12 +5,12 @@ const inputodo = document.querySelector(".todo");
 const all = document.querySelector(".all");
 const completed = document.querySelector(".completed");
 const pending = document.querySelector(".pending");
-const clear = document.querySelector(".clear");
+const clearAll = document.querySelector(".clearAll");
 const modal = document.querySelector(".modal-bg");
-const cleard = document.querySelector(".cleard");
+const clearBtn = document.querySelector(".clear");
 const cancel = document.querySelector(".cancel");
 const edit = document.querySelector(".edit-bg");
-const cedit = document.querySelector(".cancel-edit");
+const canselBtn = document.querySelector(".cancel-edit");
 const save = document.querySelector(".save");
 const countDisplay = document.querySelector(".count");
 
@@ -38,7 +38,6 @@ function renderTodos() {
             </div>
         `;
         added.appendChild(todorow);
-
         const checkbox = todorow.querySelector(".scales");
         const checktext = todorow.querySelector(".block h2");
 
@@ -126,12 +125,12 @@ pending.addEventListener("click", function () {
 });
 
 
-clear.addEventListener("click", function () {
+clearAll.addEventListener("click", function () {
     modal.style.display = "flex";  
 });
 
 
-cleard.addEventListener("click", function () {
+clearBtn.addEventListener("click", function () {
     modal.style.display = "none"; 
     todos.length = 0;  
     renderTodos();  
@@ -144,7 +143,7 @@ cancel.addEventListener("click", function () {
     modal.style.display = "none";  
 });
 
-cedit.addEventListener("click", function () {
+canselBtn.addEventListener("click", function () {
     edit.style.display = "none"; 
 });
 
