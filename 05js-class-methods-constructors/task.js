@@ -23,8 +23,6 @@
 // ...
 // }
 // }
-
-// //instance of Reactangle class
 // const myRectangle = new Rectangle(5, 10);
 
 // console.log("Area of the rectangle:", myRectangle.calculateArea()); // 50
@@ -112,11 +110,11 @@
 // const account1 = new BankAccount('101', 1000); // Hesab 101: Alice ilə 1000 balans
 // const account2 = new BankAccount('102', 500); // Hesab 102: Bob ilə 500 balans
 
-// // Alice-in əməliyyatları
+
 // account1.deposit(500); // Alice 500 əlavə edir
 // account1.withdraw(200); // Alice 200 çıxarır
 
-// // Bob-un əməliyyatları
+
 // account2.withdraw(100); // Bob 100 çıxarır
 // account2.deposit(700); // Bob 700 əlavə edir
 
