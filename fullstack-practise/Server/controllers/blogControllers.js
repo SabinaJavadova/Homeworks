@@ -1,4 +1,4 @@
-const modelBlogs = require("../Model/modelBlogs");
+    const modelBlogs = require("../Model/modelBlogs");
 
 const getAllBlogs = async (req, res) => {
   const blogs = await modelBlogs.find();
@@ -6,8 +6,6 @@ const getAllBlogs = async (req, res) => {
 };
 
 const postBlog = async (req, res) => {
-  const { img, country, title, description } = req.body;
-
   const newBlog = modelBlogs({ ...req.body });
   await newBlog.save();
   res.status(201).json({
