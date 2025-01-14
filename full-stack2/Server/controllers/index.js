@@ -4,6 +4,10 @@ const getAllData = async (req, res) => {
   const wine = await wineModel.find();
   res.send(wine);
 };
+const getDataById = async (req,res) => {
+  const id = req.params.id;
+  const wines = await wineModel.findById(id)
+}
 
 const deleteData = async (req, res) => {
   const id = req.params.id;
@@ -40,5 +44,6 @@ module.exports = {
   getAllData,
   deleteData,
   createData,
-  putData
+  putData,
+  getDataById
 };
